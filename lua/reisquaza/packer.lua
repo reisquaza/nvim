@@ -54,5 +54,10 @@ return require('packer').startup(function(use)
 
     use('jose-elias-alvarez/null-ls.nvim')
     use('MunifTanjim/prettier.nvim')
+
+    use 'ray-x/go.nvim'
+    use 'ray-x/guihua.lua'
+
+    use 'prichrd/netrw.nvim'
 end)
 
