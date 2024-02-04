@@ -58,5 +58,7 @@ return require('packer').startup(function(use)
     use 'ray-x/go.nvim'
     use 'ray-x/guihua.lua'
 
+
+    use "terrortylor/nvim-comment"
 end)
 
