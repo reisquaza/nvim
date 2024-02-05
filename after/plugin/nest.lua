@@ -1,0 +1,5 @@
+local nest = require('nest')
+
+nest.defaults.options = {
+    noremap = false,
+}
