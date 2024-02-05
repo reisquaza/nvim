@@ -119,6 +119,11 @@ _G.packer_plugins = {
     path = "/home/mkt/.local/share/nvim/site/pack/packer/start/nest.nvim",
     url = "https://github.com/LionC/nest.nvim"
   },
+  ["netrw.nvim"] = {
+    loaded = true,
+    path = "/home/mkt/.local/share/nvim/site/pack/packer/start/netrw.nvim",
+    url = "https://github.com/prichrd/netrw.nvim"
+  },
   ["null-ls.nvim"] = {
     loaded = true,
     path = "/home/mkt/.local/share/nvim/site/pack/packer/start/null-ls.nvim",
@@ -143,6 +148,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/mkt/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
     url = "https://github.com/nvim-treesitter/nvim-treesitter"
+  },
+  ["nvim-web-devicons"] = {
+    loaded = true,
+    path = "/home/mkt/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
+    url = "https://github.com/nvim-tree/nvim-web-devicons"
   },
   ["onedark.nvim"] = {
     loaded = true,
