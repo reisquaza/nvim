@@ -5,9 +5,13 @@ local ns = { noremap = true, silent = true }
 set("n", ";", ":", { noremap = true })
 
 -- Terminal
-set("t", "<Esc>c", "<C-\\><C-n><C-w><C-w>", ns)
+set("t", "<Esc>", "<C-\\><C-n><C-w><C-w>", ns)
 
 vim.g.mapleader = " "
+
+-- Close buffer
+vim.keymap.set("n", "<leader>q", "<cmd>:bd!<CR>",ns)
+
 vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
 
 vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
