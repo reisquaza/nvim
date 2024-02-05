@@ -61,5 +61,8 @@ return require('packer').startup(function(use)
     use { 'LionC/nest.nvim' }
 
     use "terrortylor/nvim-comment"
+
+    use 'vim-airline/vim-airline'
+    use 'vim-airline/vim-airline-themes'
 end)
 
