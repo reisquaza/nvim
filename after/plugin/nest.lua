@@ -1,5 +1,5 @@
-local nest = require('nest')
-
-nest.defaults.options = {
-    noremap = false,
-}
+-- local nest = require('nest')
+--
+-- nest.defaults.options = {
+--     noremap = false,
+-- }

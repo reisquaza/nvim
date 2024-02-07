@@ -57,8 +57,8 @@ return require('packer').startup(function(use)
 
     use 'ray-x/go.nvim'
     use 'ray-x/guihua.lua'
-    
-    use { 'LionC/nest.nvim' }
+
+    -- use { 'LionC/nest.nvim' }
 
     use "terrortylor/nvim-comment"
 
@@ -67,5 +67,14 @@ return require('packer').startup(function(use)
 
     use 'prichrd/netrw.nvim'
     use 'nvim-tree/nvim-web-devicons'
+
+    use 'folke/noice.nvim'
+    use 'MunifTanjim/nui.nvim'
+    use 'rcarriga/nvim-notify'
+
+    use {
+        'folke/trouble.nvim',
+        requires = 'kyazdani42/nvim-web-devicons',
+    }
 end)
 
