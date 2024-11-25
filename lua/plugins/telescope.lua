@@ -14,7 +14,7 @@ return {
           },
         },
         defaults = {
-          file_ignore_patterns = { "node_modules", "build" }
+          file_ignore_patterns = { "node_modules", "build", ".git" }
         }
       })
       local builtin = require("telescope.builtin")

@@ -7,6 +7,12 @@ return {
         end,
     },
     {
+        'numToStr/Comment.nvim',
+        opts = {
+            -- add any options here
+        }
+    },
+    {
         "pmizio/typescript-tools.nvim",
         dependencies = { "nvim-lua/plenary.nvim", "neovim/nvim-lspconfig" },
         opts = {},
@@ -28,6 +34,7 @@ return {
             lspconfig.solargraph.setup({ capabilities = capabilities })
             lspconfig.lua_ls.setup({ capabilities = capabilities })
             lspconfig.html.setup({ capabilities = capabilities })
+            lspconfig.css.setup({capabilities = capabilities})
             lspconfig.clangd.setup({ capabilities = capabilities })
             lspconfig.rust_analyzer.setup({ capabilities = capabilities })
             lspconfig.cmake.setup({ capabilities = capabilities });
